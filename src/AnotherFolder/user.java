@@ -3,15 +3,9 @@ package AnotherFolder;
 import java.util.List;
 
 public class user {
-    int a = 10;
-    List <Integer> lst;
-    public user(){}
-    public user(user other){
-        this.lst = other.lst;
+    int a = 1;
+    public void addd(){
+        System.out.println(a);
     }
 
-    @Override
-    public String toString() {
-        return ""+lst+"" ;
-    }
 }
